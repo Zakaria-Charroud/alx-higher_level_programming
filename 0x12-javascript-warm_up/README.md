@@ -1,7 +1,29 @@
 # 0x12. Javascript - Warm up
 
 ## Description
-The aim of this project is to get started with Javascript, learn all the syntax and its different uses.
+The aim of this project is to get started with JavaScript.
+
+## Background Context
+JavaScript is used for many things. Here, you will use JavaScript for 2 reasons:
+
+- Scripting (same as we did with Python)
+- Web front-end
+For the moment, and for learning all basic concepts of this language, we will do some scripting. After, we will make our AirBnB project dynamic by using Javascript and JQuery.
+
+## Resources
+- [Writing JavaScript Code](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+- [Data Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+- [Operators](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+- [Controlling Program Flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+- [Functions](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
+- [Objects and Arrays](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
+- [Intrinsic Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
+- [Module patterns](http://darrenderidder.github.io/talks/ModulePatterns/#/)
+- [var, let and const](https://www.youtube.com/watch?v=sjyJBL5fkp8)
+- [JavaScript Tutorial](https://www.youtube.com/watch?v=vZBCTc9zHtI)
+- [Modern JS](https://www.youtube.com/watch?v=vZBCTc9zHtI)
 
 ## Table of contents
 Files | Description
@@ -24,3 +46,14 @@ Files | Description
 [101-call_me_moby.js](./101-call_me_moby.js) | JS function that executes x times a function
 [102-add_me_maybe.js](./102-add_me_maybe.js) | JS function that increments and calls a function
 [103-object_fct.js](./103-object_fct.js) | JS script that adds a new function incr that increments the integer value of the object myObject
+
+## Install Node 14
+```
+1. curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+2. sudo apt-get install -y nodejs
+```
+
+ ### Install semi-standard
+ ```
+  sudo npm install semistandard --global
+ ```
